@@ -14,6 +14,13 @@
 		F6260B831C0216BC001C874E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6260B811C0216BC001C874E /* LaunchScreen.storyboard */; };
 		F6260B8E1C0216BC001C874E /* pizzAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6260B8D1C0216BC001C874E /* pizzAppTests.swift */; };
 		F6260B991C0216BC001C874E /* pizzAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6260B981C0216BC001C874E /* pizzAppUITests.swift */; };
+		F6260BA71C021A37001C874E /* vistatamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6260BA61C021A37001C874E /* vistatamano.swift */; };
+		F6260BA91C021F69001C874E /* vistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6260BA81C021F69001C874E /* vistaMasa.swift */; };
+		F6260BAB1C022A0C001C874E /* vistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6260BAA1C022A0C001C874E /* vistaQueso.swift */; };
+		F6260BAD1C0234DB001C874E /* vistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6260BAC1C0234DB001C874E /* vistaIngredientes.swift */; };
+		F697E0B11C028EC90078560E /* vistaResumen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F697E0B01C028EC90078560E /* vistaResumen.swift */; };
+		F697E0B31C0293340078560E /* depositphotos_19289465-Cartoon-pizza-slice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F697E0B21C0293340078560E /* depositphotos_19289465-Cartoon-pizza-slice.jpg */; };
+		F697E0B51C0293A50078560E /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F697E0B41C0293A50078560E /* Unknown.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		F6260B941C0216BC001C874E /* pizzAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pizzAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6260B981C0216BC001C874E /* pizzAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzAppUITests.swift; sourceTree = "<group>"; };
 		F6260B9A1C0216BC001C874E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6260BA61C021A37001C874E /* vistatamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistatamano.swift; sourceTree = "<group>"; };
+		F6260BA81C021F69001C874E /* vistaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaMasa.swift; sourceTree = "<group>"; };
+		F6260BAA1C022A0C001C874E /* vistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaQueso.swift; sourceTree = "<group>"; };
+		F6260BAC1C0234DB001C874E /* vistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaIngredientes.swift; sourceTree = "<group>"; };
+		F697E0B01C028EC90078560E /* vistaResumen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaResumen.swift; sourceTree = "<group>"; };
+		F697E0B21C0293340078560E /* depositphotos_19289465-Cartoon-pizza-slice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "depositphotos_19289465-Cartoon-pizza-slice.jpg"; sourceTree = "<group>"; };
+		F697E0B41C0293A50078560E /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,14 @@
 			children = (
 				F6260B781C0216BC001C874E /* AppDelegate.swift */,
 				F6260B7A1C0216BC001C874E /* ViewController.swift */,
+				F6260BA61C021A37001C874E /* vistatamano.swift */,
 				F6260B7C1C0216BC001C874E /* Main.storyboard */,
+				F697E0B01C028EC90078560E /* vistaResumen.swift */,
+				F6260BA81C021F69001C874E /* vistaMasa.swift */,
+				F6260BAA1C022A0C001C874E /* vistaQueso.swift */,
+				F6260BAC1C0234DB001C874E /* vistaIngredientes.swift */,
+				F697E0B21C0293340078560E /* depositphotos_19289465-Cartoon-pizza-slice.jpg */,
+				F697E0B41C0293A50078560E /* Unknown.jpeg */,
 				F6260B7F1C0216BC001C874E /* Assets.xcassets */,
 				F6260B811C0216BC001C874E /* LaunchScreen.storyboard */,
 				F6260B841C0216BC001C874E /* Info.plist */,
@@ -232,9 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F697E0B31C0293340078560E /* depositphotos_19289465-Cartoon-pizza-slice.jpg in Resources */,
 				F6260B831C0216BC001C874E /* LaunchScreen.storyboard in Resources */,
 				F6260B801C0216BC001C874E /* Assets.xcassets in Resources */,
 				F6260B7E1C0216BC001C874E /* Main.storyboard in Resources */,
+				F697E0B51C0293A50078560E /* Unknown.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F697E0B11C028EC90078560E /* vistaResumen.swift in Sources */,
 				F6260B7B1C0216BC001C874E /* ViewController.swift in Sources */,
+				F6260BAB1C022A0C001C874E /* vistaQueso.swift in Sources */,
 				F6260B791C0216BC001C874E /* AppDelegate.swift in Sources */,
+				F6260BA71C021A37001C874E /* vistatamano.swift in Sources */,
+				F6260BAD1C0234DB001C874E /* vistaIngredientes.swift in Sources */,
+				F6260BA91C021F69001C874E /* vistaMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +515,7 @@
 				F6260B9F1C0216BC001C874E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6260BA01C0216BC001C874E /* Build configuration list for PBXNativeTarget "pizzAppTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +524,7 @@
 				F6260BA21C0216BC001C874E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6260BA31C0216BC001C874E /* Build configuration list for PBXNativeTarget "pizzAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +533,7 @@
 				F6260BA51C0216BC001C874E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
